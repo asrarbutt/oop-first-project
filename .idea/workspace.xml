@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add test class to the project">
+    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="rename test class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656927661685</updated>
-      <workItem from="1656927662982" duration="7404000" />
+      <workItem from="1656927662982" duration="8577000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656927924274</created>
@@ -143,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656940141842</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add test method for tostring">
+      <created>1656941160474</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656941160474</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rename test class">
+      <created>1656941339388</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656941339388</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +184,8 @@
     <MESSAGE value="add constructur" />
     <MESSAGE value="add toString method" />
     <MESSAGE value="add test class to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test class to the project" />
+    <MESSAGE value="add test method for tostring" />
+    <MESSAGE value="rename test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename test class" />
   </component>
 </project>
