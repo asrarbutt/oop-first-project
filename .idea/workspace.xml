@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add equals and hashcode">
+    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add test for equals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,20 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.StudentTest.testNotEquals">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop-first-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-first-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,6 +67,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StudentTest" />
       <option name="METHOD_NAME" value="testEqualsFromStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-first-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="testNotEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,8 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentTest.testNotEquals" />
+        <item itemvalue="JUnit.StudentTest.testEquals" />
         <item itemvalue="JUnit.StudentTest.testEqualsFromStudent" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentTest.toStringTest" />
       </list>
     </recent_temporary>
@@ -89,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656927661685</updated>
-      <workItem from="1656927662982" duration="8887000" />
+      <workItem from="1656927662982" duration="9785000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656927924274</created>
@@ -175,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656944122897</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add test for equals">
+      <created>1656944393815</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656944393815</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +233,7 @@
     <MESSAGE value="add test method for tostring" />
     <MESSAGE value="rename test class" />
     <MESSAGE value="add equals and hashcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add equals and hashcode" />
+    <MESSAGE value="add test for equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test for equals" />
   </component>
 </project>

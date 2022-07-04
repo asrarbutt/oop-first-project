@@ -30,4 +30,24 @@ public class StudentTest {
         //then
         Assertions.assertEquals(true, actual);
     }
+
+    @Test
+    void testEquals(){
+        //given
+        Student student1=new Student("Jan", "hoffmann", 25);
+        Student student2=new Student("Jan", "hoffmann", 25);
+
+        //then
+        Assertions.assertEquals(student1, student2);
+    }
+
+    @Test
+    void testNotEquals(){
+        //given
+        Student student1=new Student("Jan", "hoffmann", 25);
+        Student student2=new Student("Ja", "hoffmann", 25);
+
+        //then
+        Assertions.assertNotEquals(student1, student2);
+    }
 }
