@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add toString method">
+    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add test class to the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
     </list>
@@ -45,7 +45,7 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainTest.toStringTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop-first-project" />
@@ -53,8 +53,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-first-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.toStringTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -67,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656927661685</updated>
-      <workItem from="1656927662982" duration="6346000" />
+      <workItem from="1656927662982" duration="7404000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656927924274</created>
@@ -125,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656938874057</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add test class to the project">
+      <created>1656940141842</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656940141842</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +169,7 @@
     <MESSAGE value="add fullname variable" />
     <MESSAGE value="add constructur" />
     <MESSAGE value="add toString method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add toString method" />
+    <MESSAGE value="add test class to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test class to the project" />
   </component>
 </project>

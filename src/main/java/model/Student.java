@@ -55,7 +55,7 @@ public class Student {
 
     @Override
     public String toString(){
-        return "Firstname: " + getFirstName()  + "Lastname: " + getLastName() + "Age: " + getLastName();
+        return "Firstname: " + getFirstName()  + " Lastname: " + getLastName() + " Age: " + getAge();
     }
 
 }
