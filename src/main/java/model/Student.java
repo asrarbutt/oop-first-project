@@ -1,3 +1,5 @@
+package model;
+
 public class Student {
 
    private String firstName, lastName;
@@ -13,7 +15,7 @@ public class Student {
 
     public Student(String firstName, String lastName, int age){
         this.firstName=firstName;
-        this.firstName=lastName;
+        this.lastName=lastName;
         this.age=age;
 
     }
@@ -50,6 +52,11 @@ public class Student {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+    public String toString(){
+        return "Firstname: " + getFirstName()  + "Lastname: " + getLastName() + "Age: " + getLastName();
+    }
+
 
 
 }
