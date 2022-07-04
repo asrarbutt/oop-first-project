@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="change variable name">
+    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="created Object">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656927661685</updated>
-      <workItem from="1656927662982" duration="991000" />
+      <workItem from="1656927662982" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656927924274</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656928518191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created Object">
+      <created>1656928780887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656928780887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,7 @@
     <MESSAGE value="add class student" />
     <MESSAGE value="add variable and getter/setter in student" />
     <MESSAGE value="change variable name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change variable name" />
+    <MESSAGE value="created Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Object" />
   </component>
 </project>

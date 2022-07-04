@@ -1,7 +1,17 @@
 public class Student {
 
-    String firstName, lastName;
-    int age;
+   private String firstName, lastName;
+
+    private int age;
+
+    public String getfullName(){
+        return firstName + " " + lastName;
+    }
+
+    public void setFullName(String name){
+        this.firstName=name.split(" ")[0];
+        this.lastName=name.split(" ")[1];
+    }
 
     public String getLastName() {
         return lastName;
@@ -26,4 +36,6 @@ public class Student {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+
 }

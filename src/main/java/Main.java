@@ -4,9 +4,11 @@ public class Main {
 
         Student student=new Student();
 
+
         student.setFirstName("Jan");
         student.setLastName("Mueller");
         student.setAge(35);
+
 
         System.out.println(student.getFirstName() + " " + student.getLastName() + " "+ student.getAge());
 
