@@ -1,7 +1,6 @@
 public class Student {
 
-    String firstName;
-    String lastName;
+    String firstName, lastName;
     int age;
 
     public String getLastName() {
