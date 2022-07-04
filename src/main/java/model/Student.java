@@ -53,10 +53,9 @@ public class Student {
         this.firstName = firstName;
     }
 
+    @Override
     public String toString(){
         return "Firstname: " + getFirstName()  + "Lastname: " + getLastName() + "Age: " + getLastName();
     }
-
-
 
 }
