@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="rename test class">
+    <list default="true" id="34774e31-41f0-429d-b292-3b0455706e4d" name="Changes" comment="add equals and hashcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +45,20 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.toStringTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop-first-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.testEqualsFromStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-first-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="testEqualsFromStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,8 +75,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest.toStringTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentTest.testEqualsFromStudent" />
+        <item itemvalue="JUnit.StudentTest.toStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656927661685</updated>
-      <workItem from="1656927662982" duration="8577000" />
+      <workItem from="1656927662982" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656927924274</created>
@@ -157,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656941339388</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add equals and hashcode">
+      <created>1656944122897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656944122897</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +204,7 @@
     <MESSAGE value="add test class to the project" />
     <MESSAGE value="add test method for tostring" />
     <MESSAGE value="rename test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename test class" />
+    <MESSAGE value="add equals and hashcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add equals and hashcode" />
   </component>
 </project>
