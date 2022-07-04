@@ -4,6 +4,20 @@ public class Student {
 
     private int age;
 
+
+    //Constructur
+
+
+    public Student() {
+    }
+
+    public Student(String firstName, String lastName, int age){
+        this.firstName=firstName;
+        this.firstName=lastName;
+        this.age=age;
+
+    }
+
     public String getfullName(){
         return firstName + " " + lastName;
     }
